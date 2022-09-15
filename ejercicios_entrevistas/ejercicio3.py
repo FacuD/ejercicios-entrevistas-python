@@ -1,8 +1,4 @@
-import string
-from xmlrpc.client import Boolean
-
-
-def es_vocal(letra: string) -> Boolean:
+def es_vocal(letra: str) -> bool:
     """Dado un carácter devuelve "True" si es una vocal o "False" si no lo es
 
     Args:

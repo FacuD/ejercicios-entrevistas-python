@@ -1,7 +1,4 @@
-import string
-
-
-def inversa(palabra: string) -> string:
+def inversa(palabra: str) -> str:
     """Devuelve la inversa de una cadena de texto
 
     Args:
@@ -15,4 +12,5 @@ def inversa(palabra: string) -> string:
 
 if __name__ == "__main__":
     print(inversa("estoy probando"))
+    print(inversa("a"))
     print(inversa("algo"))
